@@ -1,0 +1,61 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "[TEST] Tools news (sample feed)",
+  "home_page_url": "https://tools.samcbarth.com/news/",
+  "feed_url": "https://tools.samcbarth.com/news/feed.json",
+  "_test": true,
+  "items": [
+    {
+      "id": "https://tools.samcbarth.com/news/test-sample-1/",
+      "url": "https://tools.samcbarth.com/news/test-sample-1/",
+      "title": "[TEST] Sample: a browser release changes a developer API",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-09T04:00:00-06:00",
+      "tags": [
+        "Tools",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://tools.samcbarth.com/news/test-sample-2/",
+      "url": "https://tools.samcbarth.com/news/test-sample-2/",
+      "title": "[TEST] Sample: a free image compressor update",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-08T11:00:00-06:00",
+      "tags": [
+        "Tools",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://tools.samcbarth.com/news/test-sample-3/",
+      "url": "https://tools.samcbarth.com/news/test-sample-3/",
+      "title": "[TEST] Sample: a CRM adds a new free tier limit",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T18:00:00-06:00",
+      "tags": [
+        "Tools",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://tools.samcbarth.com/news/test-sample-4/",
+      "url": "https://tools.samcbarth.com/news/test-sample-4/",
+      "title": "[TEST] Sample: a password manager feature note",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T01:00:00-06:00",
+      "tags": [
+        "Tools",
+        "test"
+      ],
+      "_test": true
+    }
+  ]
+}

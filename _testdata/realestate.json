@@ -1,0 +1,61 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "[TEST] Real Estate news (sample feed)",
+  "home_page_url": "https://realestate.samcbarth.com/news/",
+  "feed_url": "https://realestate.samcbarth.com/news/feed.json",
+  "_test": true,
+  "items": [
+    {
+      "id": "https://realestate.samcbarth.com/news/test-sample-1/",
+      "url": "https://realestate.samcbarth.com/news/test-sample-1/",
+      "title": "[TEST] Sample: rent survey for a mid-size Texas metro",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-09T07:00:00-06:00",
+      "tags": [
+        "Real Estate",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/test-sample-2/",
+      "url": "https://realestate.samcbarth.com/news/test-sample-2/",
+      "title": "[TEST] Sample: property tax protest deadline reminder",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-08T14:00:00-06:00",
+      "tags": [
+        "Real Estate",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/test-sample-3/",
+      "url": "https://realestate.samcbarth.com/news/test-sample-3/",
+      "title": "[TEST] Sample: what a rate change does to a duplex's cash flow",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T21:00:00-06:00",
+      "tags": [
+        "Real Estate",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://realestate.samcbarth.com/news/test-sample-4/",
+      "url": "https://realestate.samcbarth.com/news/test-sample-4/",
+      "title": "[TEST] Sample: Oklahoma County listing counts",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T04:00:00-06:00",
+      "tags": [
+        "Real Estate",
+        "test"
+      ],
+      "_test": true
+    }
+  ]
+}

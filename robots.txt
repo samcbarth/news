@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_testdata/
+
+Sitemap: https://news.samcbarth.com/sitemap.xml

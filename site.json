@@ -1,0 +1,98 @@
+{
+  "name": "The Quillmark",
+  "tagline": "Seven beats, one front page",
+  "description": "The Quillmark is the front page of the samcbarth.com network: housing, tools and tech, gaming, streaming, home repair and deals news in one place, with every story linked to its source.",
+  "base": "https://news.samcbarth.com",
+  "locale": "en_US",
+  "timezone_offset": "-06:00",
+  "feed_timeout_seconds": 8,
+  "sections": [
+    {
+      "key": "realestate",
+      "slug": "real-estate",
+      "name": "Real Estate",
+      "site": "https://realestate.samcbarth.com",
+      "site_label": "realestate.samcbarth.com",
+      "feed": "https://realestate.samcbarth.com/news/feed.json",
+      "blurb": "Mortgage rates, home sales, rents and investing news, with a Texas and Oklahoma lens.",
+      "evergreen": [
+        {"label": "Real estate investing calculators", "url": "https://realestate.samcbarth.com/"},
+        {"label": "Real estate news desk", "url": "https://realestate.samcbarth.com/news/"}
+      ]
+    },
+    {
+      "key": "tools",
+      "slug": "tools-tech",
+      "name": "Tools and Tech",
+      "site": "https://tools.samcbarth.com",
+      "site_label": "tools.samcbarth.com",
+      "feed": "https://tools.samcbarth.com/news/feed.json",
+      "blurb": "Software, AI and web tools news for marketers, developers and small business owners.",
+      "evergreen": [
+        {"label": "Free browser tools", "url": "https://tools.samcbarth.com/"},
+        {"label": "Tool news desk", "url": "https://tools.samcbarth.com/news/"}
+      ]
+    },
+    {
+      "key": "games",
+      "slug": "gaming",
+      "name": "Gaming",
+      "site": "https://games.samcbarth.com",
+      "site_label": "games.samcbarth.com",
+      "feed": "https://games.samcbarth.com/news/feed.json",
+      "blurb": "Release dates, industry moves and platform news from the games business.",
+      "evergreen": [
+        {"label": "Free original browser games", "url": "https://games.samcbarth.com/"},
+        {"label": "Gaming news desk", "url": "https://games.samcbarth.com/news/"}
+      ]
+    },
+    {
+      "key": "streaming",
+      "slug": "streaming",
+      "name": "Streaming",
+      "site": "https://streaming.samcbarth.com",
+      "site_label": "streaming.samcbarth.com",
+      "feed": "https://streaming.samcbarth.com/news/feed.json",
+      "blurb": "Prices, bundles, devices and what changes for subscribers.",
+      "evergreen": [
+        {"label": "Streaming service and device reviews", "url": "https://streaming.samcbarth.com/"},
+        {"label": "Streaming news desk", "url": "https://streaming.samcbarth.com/news/"}
+      ]
+    },
+    {
+      "key": "homerepair",
+      "slug": "home",
+      "name": "Home",
+      "site": "https://homerepair.samcbarth.com",
+      "site_label": "homerepair.samcbarth.com",
+      "feed": "https://homerepair.samcbarth.com/news/feed.json",
+      "blurb": "Recalls, permits, codes and costs that affect DIY home repair.",
+      "evergreen": [
+        {"label": "DIY home repair guides", "url": "https://homerepair.samcbarth.com/"},
+        {"label": "Home repair news desk", "url": "https://homerepair.samcbarth.com/news/"}
+      ]
+    },
+    {
+      "key": "deals",
+      "slug": "deals",
+      "name": "Deals",
+      "site": "https://deals.samcbarth.com",
+      "site_label": "deals.samcbarth.com",
+      "feed": "https://deals.samcbarth.com/news/feed.json",
+      "blurb": "Retail seasons, sale events and shopping data, without the countdown clocks.",
+      "evergreen": [
+        {"label": "Deal and buying guides", "url": "https://deals.samcbarth.com/"},
+        {"label": "Deals news desk", "url": "https://deals.samcbarth.com/news/"}
+      ]
+    }
+  ],
+  "network": [
+    {"label": "Real Estate", "url": "https://realestate.samcbarth.com/"},
+    {"label": "Tools", "url": "https://tools.samcbarth.com/"},
+    {"label": "Games", "url": "https://games.samcbarth.com/"},
+    {"label": "Streaming", "url": "https://streaming.samcbarth.com/"},
+    {"label": "Home Repair", "url": "https://homerepair.samcbarth.com/"},
+    {"label": "Deals", "url": "https://deals.samcbarth.com/"},
+    {"label": "News", "url": "https://news.samcbarth.com/", "current": true}
+  ]
+}

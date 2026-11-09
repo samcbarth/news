@@ -1,0 +1,61 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "[TEST] Games news (sample feed)",
+  "home_page_url": "https://games.samcbarth.com/news/",
+  "feed_url": "https://games.samcbarth.com/news/feed.json",
+  "_test": true,
+  "items": [
+    {
+      "id": "https://games.samcbarth.com/news/test-sample-1/",
+      "url": "https://games.samcbarth.com/news/test-sample-1/",
+      "title": "[TEST] Sample: a new original browser game ships",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-09T01:00:00-06:00",
+      "tags": [
+        "Games",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://games.samcbarth.com/news/test-sample-2/",
+      "url": "https://games.samcbarth.com/news/test-sample-2/",
+      "title": "[TEST] Sample: a console update note",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-08T08:00:00-06:00",
+      "tags": [
+        "Games",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://games.samcbarth.com/news/test-sample-3/",
+      "url": "https://games.samcbarth.com/news/test-sample-3/",
+      "title": "[TEST] Sample: a release date moves",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T15:00:00-06:00",
+      "tags": [
+        "Games",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://games.samcbarth.com/news/test-sample-4/",
+      "url": "https://games.samcbarth.com/news/test-sample-4/",
+      "title": "[TEST] Sample: a free weekend on a PC storefront",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-06T22:00:00-06:00",
+      "tags": [
+        "Games",
+        "test"
+      ],
+      "_test": true
+    }
+  ]
+}

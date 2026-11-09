@@ -1,0 +1,61 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "[TEST] Deals news (sample feed)",
+  "home_page_url": "https://deals.samcbarth.com/news/",
+  "feed_url": "https://deals.samcbarth.com/news/feed.json",
+  "_test": true,
+  "items": [
+    {
+      "id": "https://deals.samcbarth.com/news/test-sample-1/",
+      "url": "https://deals.samcbarth.com/news/test-sample-1/",
+      "title": "[TEST] Sample: a retailer moves its sale weekend",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-08T16:00:00-06:00",
+      "tags": [
+        "Deals",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://deals.samcbarth.com/news/test-sample-2/",
+      "url": "https://deals.samcbarth.com/news/test-sample-2/",
+      "title": "[TEST] Sample: price-match policy changes",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T23:00:00-06:00",
+      "tags": [
+        "Deals",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://deals.samcbarth.com/news/test-sample-3/",
+      "url": "https://deals.samcbarth.com/news/test-sample-3/",
+      "title": "[TEST] Sample: a return window extends for the holidays",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-07T06:00:00-06:00",
+      "tags": [
+        "Deals",
+        "test"
+      ],
+      "_test": true
+    },
+    {
+      "id": "https://deals.samcbarth.com/news/test-sample-4/",
+      "url": "https://deals.samcbarth.com/news/test-sample-4/",
+      "title": "[TEST] Sample: a gift card fee rule",
+      "summary": "Placeholder item for local testing of the news hub. Not a real story.",
+      "image": "",
+      "date_published": "2026-11-06T13:00:00-06:00",
+      "tags": [
+        "Deals",
+        "test"
+      ],
+      "_test": true
+    }
+  ]
+}

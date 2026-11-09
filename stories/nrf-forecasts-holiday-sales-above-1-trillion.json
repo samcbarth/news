@@ -1,0 +1,23 @@
+{
+  "slug": "nrf-forecasts-holiday-sales-above-1-trillion",
+  "section": "deals",
+  "title": "NRF forecasts 2026 holiday sales will top $1 trillion",
+  "dek": "The retail trade group expects November and December sales to grow 4.2% over 2025, with up to 375,000 seasonal hires.",
+  "date_published": "2026-11-09T08:00:00-06:00",
+  "tags": ["holiday shopping", "NRF", "retail"],
+  "body": [
+    {"h": "How big will holiday shopping be this year?"},
+    {"p": "The National Retail Federation forecasts that U.S. retail sales in November and December 2026 will grow 4.2% over the same period in 2025, to $1.013 trillion. NRF released the forecast on October 15, 2026."},
+    {"p": "For comparison, NRF puts 2025 holiday sales at $972 billion."},
+    {"h": "How many seasonal workers will retailers hire?"},
+    {"p": "NRF expects retailers to hire between 325,000 and 375,000 seasonal workers for the season."},
+    {"h": "What does the forecast count?"},
+    {"p": "NRF's holiday number covers November and December and leaves out automobile dealers, gas stations and restaurants. It does not split online sales from in-store sales in this release."},
+    {"h": "What does it mean for shoppers?"},
+    {"p": "A strong forecast does not mean every price will fall. It mainly signals that retailers are stocking up and competing for the same budget, which tends to bring sale events earlier and spread them across more of November. A clear list of what you need before the big sale weekends is still the best defense against impulse buys."}
+  ],
+  "sources": [
+    {"label": "National Retail Federation, 2026 holiday forecast (Oct. 15, 2026)", "url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient"},
+    {"label": "NRF, Winter holidays data and trends", "url": "https://nrf.com/research-insights/holiday-data-and-trends/winter-holidays"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "openai-to-acquire-pierre-code-storage",
+  "section": "tools",
+  "title": "OpenAI agrees to acquire Pierre, maker of Code Storage, to build out Codex",
+  "dek": "Pierre's open-source developer libraries will stay open source, and current Code Storage customers can keep using it after the deal closes.",
+  "date_published": "2026-11-09T11:00:00-06:00",
+  "tags": ["OpenAI", "Codex", "developer tools", "acquisitions"],
+  "body": [
+    {"h": "What is OpenAI buying?"},
+    {"p": "OpenAI announced on November 4, 2026, that it will acquire Pierre Computer Company, Inc., the company behind Code Storage, a service that lets apps store code and track its history using Git. Pierre also publishes open-source developer libraries, including Trees and Diffs libraries and a syntax highlighter called Highlights."},
+    {"h": "What will OpenAI do with it?"},
+    {"p": "OpenAI says it plans to use Pierre's work to adapt Git workflows to teams that use coding agents, and to bring Code Storage's features into Codex, its coding product. It said Pierre's open-source projects will remain open source."},
+    {"h": "Is the deal done?"},
+    {"p": "Not yet. OpenAI said closing depends on customary conditions, including regulatory approvals, and that the two companies stay separate and independent until then. No price was disclosed."},
+    {"h": "What does it mean for developers?"},
+    {"p": "If you use Code Storage today, OpenAI says you can keep using it after the deal closes. If you depend on Pierre's open-source libraries, the commitment to keep them open is the line to watch. The broader signal is that source control is becoming a contested piece of AI coding tools, not just a background utility."}
+  ],
+  "sources": [
+    {"label": "OpenAI, OpenAI to acquire Pierre Computer Company, Inc. (Nov. 4, 2026)", "url": "https://openai.com/index/openai-to-acquire-pierre/"}
+  ]
+}

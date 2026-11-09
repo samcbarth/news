@@ -1,0 +1,22 @@
+{
+  "slug": "mortgage-rates-dip-to-7-18-percent",
+  "section": "realestate",
+  "title": "Mortgage rates dip to 7.18% in Freddie Mac's Nov. 5 survey",
+  "dek": "The 30-year fixed average fell for a third straight week, but it is still almost a full point above where it sat a year ago.",
+  "date_published": "2026-11-09T09:00:00-06:00",
+  "tags": ["mortgage rates", "Freddie Mac", "housing"],
+  "body": [
+    {"h": "Where are mortgage rates right now?"},
+    {"p": "The average 30-year fixed mortgage rate was 7.18% in Freddie Mac's Primary Mortgage Market Survey released November 5, 2026, down from 7.24% the week before. The 15-year fixed average was 6.57%, down from 6.60%."},
+    {"p": "That makes three weekly declines in a row. Freddie Mac's survey data, which the St. Louis Fed republishes in its FRED database, shows the 30-year average at 7.40% on October 15 and 7.32% on October 22 before this latest reading."},
+    {"h": "How does that compare with last year?"},
+    {"p": "Rates are well above year-ago levels. Freddie Mac lists the 30-year average at 6.22% and the 15-year at 5.50% in the same week of 2025. On a $350,000 loan, the gap between those two 30-year rates works out to about $223 a month in principal and interest, using a standard amortization formula."},
+    {"h": "What does it mean for buyers and investors?"},
+    {"p": "A small weekly drop does not change affordability much on its own, but a run of declines can move buyers who were waiting at the margin. For rental investors, the rate sets the hurdle a property's cash flow has to clear, so it is worth rerunning the numbers with the current figure rather than one from a few months ago."},
+    {"p": "Freddie Mac publishes the survey every Thursday. The figures are national averages for borrowers with strong credit and 20% down, so individual quotes will vary."}
+  ],
+  "sources": [
+    {"label": "Freddie Mac, Primary Mortgage Market Survey (Nov. 5, 2026)", "url": "https://www.freddiemac.com/pmms"},
+    {"label": "FRED, 30-Year Fixed Rate Mortgage Average (MORTGAGE30US)", "url": "https://fred.stlouisfed.org/series/MORTGAGE30US"}
+  ]
+}

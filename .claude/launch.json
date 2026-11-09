@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {"name": "news", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "8827", "--directory", "C:/SamSites/news"], "port": 8827}
+  ]
+}

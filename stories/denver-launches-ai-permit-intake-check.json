@@ -1,0 +1,22 @@
+{
+  "slug": "denver-launches-ai-permit-intake-check",
+  "section": "homerepair",
+  "title": "Denver launches an AI tool that pre-checks building permit applications",
+  "dek": "StartSmart flags missing items before an application goes to city staff. Staff still make the final call.",
+  "date_published": "2026-11-09T12:00:00-06:00",
+  "tags": ["permits", "Denver", "remodeling"],
+  "body": [
+    {"h": "What did Denver launch?"},
+    {"p": "The City and County of Denver launched StartSmart: Application Intake Assistant on November 5, 2026. It is a free, web-based tool that checks building permit and formal site development plan applications for completeness and highlights errors or missing information before the application moves to plan review."},
+    {"h": "Does it approve permits?"},
+    {"p": "No. The city says the tool does not replace intake or plan review by staff, who still decide whether an application is ready for review and whether a project gets a permit."},
+    {"h": "Which applications does it cover?"},
+    {"p": "At launch it covers building permits and formal site development plans. Denver says more application types are expected in 2027."},
+    {"h": "Why does it matter if you are planning a remodel?"},
+    {"p": "Incomplete applications are a common reason a permit stalls before anyone reviews the actual plans. A pre-check that answers in minutes rather than days mostly helps homeowners and small contractors who file a few permits a year and do not know every local requirement. If you are outside Denver, the useful habit is the same: ask your permit office for its completeness checklist before you submit."}
+  ],
+  "sources": [
+    {"label": "City and County of Denver, Denver launches new tool to speed up permit intake process (Nov. 5, 2026)", "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/CPD-News-and-Events/CPD-News/2026/New-permit-intake-tool"},
+    {"label": "Denver, StartSmart: Application Intake Assistant", "url": "https://www.denvergov.org/My-Property/Remodeling-and-Construction/Permit-Office/StartSmart/Application-Intake-Assistant"}
+  ]
+}
