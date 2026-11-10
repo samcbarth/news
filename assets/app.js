@@ -4,15 +4,13 @@
   var C = window.QM_CONFIG || {};
   var PREFIX = window.QM_PREFIX || '';
 
-  // ---- theme
-  var btn = document.querySelector('.theme-btn');
-  if (btn) btn.addEventListener('click', function () {
-    var root = document.documentElement;
-    var dark = root.dataset.theme ? root.dataset.theme === 'dark'
-      : window.matchMedia('(prefers-color-scheme: dark)').matches;
-    root.dataset.theme = dark ? 'light' : 'dark';
-    try { localStorage.setItem('qm-theme', root.dataset.theme); } catch (_) {}
-  });
+  // ---- sticky nav: darken + blur once the page scrolls
+  var bar = document.querySelector('.topbar');
+  if (bar) {
+    var onScroll = function () { bar.classList.toggle('scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
 
   // ---- ads: nothing renders until ADSENSE_CLIENT is set
   var slots = document.querySelectorAll('.ad-slot');
@@ -41,6 +39,28 @@
   }
 
   // ---- contact page
+  // HubSpot renders the form inside a same-origin iframe, so page CSS cannot reach it; inject brand styles there.
+  var FORM_CSS = [
+    'body{background:transparent;color:#fff;font:400 16px/1.5 Inter,"Helvetica Neue",Helvetica,Arial,sans-serif;margin:0}',
+    '.hs-form label,.hs-form legend{color:#fff!important;font:700 13px/1.3 Inter,"Helvetica Neue",Arial,sans-serif!important;text-transform:uppercase;letter-spacing:.06em}',
+    '.hs-form legend.hs-field-desc{color:rgba(255,255,255,.62)!important;text-transform:none;letter-spacing:0;font-weight:400!important;font-size:13px!important}',
+    '.hs-form .hs-form-required{color:#ff9aa8!important}',
+    '.hs-form input[type=text],.hs-form input[type=email],.hs-form input[type=tel],.hs-form textarea,.hs-form select{background:#000!important;color:#fff!important;border:1px solid rgba(255,255,255,.22)!important;border-radius:4px!important;padding:12px 14px!important;font:400 16px/1.4 Inter,Arial,sans-serif!important;height:auto!important;box-sizing:border-box;width:100%!important}',
+    '.hs-form input:focus,.hs-form textarea:focus{border-color:#8e7cc3!important;outline:none}',
+    '.hs-form .hs-button{background:#9a00ff!important;border:1px solid #9a00ff!important;color:#fff!important;border-radius:50px!important;min-height:52px;padding:0 30px!important;font:700 14px/1 Inter,Arial,sans-serif!important;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;transition:transform .15s}',
+    '.hs-form .hs-button:hover{transform:translateY(-2px)}',
+    '.hs-error-msgs label,.hs-error-msg{color:#ff9aa8!important;text-transform:none!important;letter-spacing:0!important;font-weight:400!important}',
+    '.hs-richtext,.legal-consent-container,.legal-consent-container p{color:rgba(255,255,255,.62)!important}',
+    '.hs-form a{color:#a99ae0!important}'
+  ].join('');
+  function brandForm(el) {
+    var doc = el && el.ownerDocument;
+    if (!doc || doc === document || doc.getElementById('qm-form-css')) return;
+    var st = doc.createElement('style');
+    st.id = 'qm-form-css';
+    st.textContent = FORM_CSS;
+    doc.head.appendChild(st);
+  }
   var cslot = document.getElementById('contact-slot');
   if (cslot) {
     if (C.HUBSPOT_FORM_ID) {
@@ -48,7 +68,8 @@
       hs.src = 'https://js.hsforms.net/forms/embed/v2.js';
       hs.onload = function () {
         cslot.innerHTML = '';
-        window.hbspt.forms.create({ region: C.HUBSPOT_REGION || 'na1', portalId: C.HUBSPOT_PORTAL_ID, formId: C.HUBSPOT_FORM_ID, target: '#contact-slot' });
+        window.hbspt.forms.create({ region: C.HUBSPOT_REGION || 'na1', portalId: C.HUBSPOT_PORTAL_ID, formId: C.HUBSPOT_FORM_ID, target: '#contact-slot',
+          onFormReady: function (form) { brandForm(form && (form[0] || form)); } });
       };
       document.body.appendChild(hs);
     } else if (C.CONTACT_EMAIL) {

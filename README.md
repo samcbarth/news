@@ -84,6 +84,6 @@ Then in the GitHub repo: Settings > Pages > deploy from `main` / root, custom do
 - `build.py`: generates every page, `feed.xml` (RSS), `feed.json` (hub stories, JSON Feed 1.1), `sitemap.xml`, `robots.txt`, `llms.txt`.
 - `site.json`: masthead, sections, feed URLs, network bar.
 - `stories/`: hub-only stories, one JSON file each.
-- `assets/`: `style.css`, `app.js` (theme, ads, contact form, feed refresh), `config.js`, `favicon.svg`, `og.png`, `logo.png` (from `make_images.py`).
+- `assets/`: `style.css` (samcbarth.com brand tokens from NETWORK.md "Brand", dark only), `app.js` (sticky nav, ads, contact form with brand styles injected into HubSpot's form iframe, feed refresh), `config.js`, `favicon.svg`, `og.png`, `logo.png` (from `make_images.py`).
 - `data/feed-cache.json`: last good copy of each live feed.
 - `check_links.py`: link checker.

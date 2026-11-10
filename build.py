@@ -223,16 +223,15 @@ def page(path, title, desc, body, ld=(), og_type="website", active=None, extra_h
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="{SITE['locale']}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#f7f4ec" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#14161a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="{link('/assets/favicon.svg')}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{e(NAME)}" href="{link('/feed.xml')}">
 <link rel="alternate" type="application/feed+json" title="{e(NAME)}" href="{link('/feed.json')}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@900&family=Inter:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="{link('/assets/style.css')}">
-<script>try{{var t=localStorage.getItem('qm-theme');if(t)document.documentElement.dataset.theme=t;}}catch(_){{}}</script>
 {extra_head}
 {''.join(jsonld(x) for x in ld)}
 </head>
@@ -240,18 +239,21 @@ def page(path, title, desc, body, ld=(), og_type="website", active=None, extra_h
 {banner}
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
-  <div class="topline wrap">
-    <span class="dateline">{long_date(Ctx.build_date)}</span>
-    <span class="topline-links"><a href="{link('/about/')}">About</a><a href="{link('/feed.xml')}">RSS</a>
-    <button class="theme-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">&#9680;</button></span>
+  <div class="topbar">
+    <div class="topbar-in wrap">
+      <a class="logo" href="{link('/')}">{e(NAME)}</a>
+      <nav class="sections" aria-label="Sections">
+{nav_html(active)}
+      </nav>
+      <span class="topbar-links"><a href="{link('/about/')}">About</a><a href="{link('/feed.xml')}">RSS</a></span>
+    </div>
   </div>
-  <div class="masthead wrap">
-    <a class="wordmark" href="{link('/')}">{e(NAME)}</a>
+  <div class="masthead">
+    <span class="dateline">{long_date(Ctx.build_date)}</span>
+    <a class="wordmark" href="{link('/')}" tabindex="-1" aria-hidden="true">{e(NAME)}</a>
     <p class="tagline">{e(SITE['tagline'])}</p>
   </div>
-  <nav class="sections wrap" aria-label="Sections">
-{nav_html(active)}
-  </nav>
+  <div class="band" role="presentation"></div>
 </header>
 <main id="main" class="wrap">
 {body}
