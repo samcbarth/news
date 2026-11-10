@@ -78,7 +78,7 @@
     return '<span class="meta"><time datetime="' + esc(it.date) + '">' + nice(it.date) + '</time> <span class="src' + (it.external ? '' : ' own') + '">' + esc(it.site_label) + '</span></span>';
   }
   function thumb(it) {
-    if (it.image) return '<div class="thumb s-' + it.section + '"><img src="' + esc(it.image) + '" alt="" loading="lazy" decoding="async" width="640" height="360"></div>';
+    if (it.image) return '<div class="thumb s-' + it.section + '"><img src="' + esc(it.image) + '" alt="" loading="lazy" decoding="async" width="640" height="360" onerror="this.remove()"></div>';
     return '<div class="thumb s-' + it.section + ' art" aria-hidden="true"><span>' + esc(secName(it.section).charAt(0)) + '</span></div>';
   }
   function card(it, variant) {

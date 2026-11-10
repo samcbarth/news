@@ -11,7 +11,7 @@
 Sources of truth: site.json (masthead, sections, feed URLs) and stories/*.json
 (one file per hub-only story). Re-run after any change.
 """
-import argparse, datetime as dt, html, json, pathlib, re, shutil, sys, urllib.request
+import argparse, datetime as dt, html, json, os, pathlib, re, shutil, sys, urllib.request
 from email.utils import format_datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -20,7 +20,7 @@ BASE = SITE["base"].rstrip("/")
 NAME = SITE["name"]
 SECTIONS = SITE["sections"]
 SEC = {s["key"]: s for s in SECTIONS}
-SAMSITES = ROOT.parent
+SAMSITES = pathlib.Path(os.environ.get("SAMSITES_DIR") or ROOT.parent)  # where sibling site folders live
 CACHE = ROOT / "data" / "feed-cache.json"
 TEST_MARK = "[TEST]"
 
@@ -103,8 +103,11 @@ def load_feeds(test):
             local = SAMSITES / k / "news" / "feed.json"
             sample = ROOT / "_testdata" / f"{k}.json"
             if local.exists():
-                feed, how = json.loads(local.read_text(encoding="utf-8")), f"local sibling {local}"
-            elif sample.exists():
+                try:
+                    feed, how = json.loads(local.read_text(encoding="utf-8-sig")), f"local sibling {local}"
+                except (ValueError, OSError) as ex:
+                    print(f"  WARNING: {local} is not valid JSON ({ex}); using sample instead")
+            if feed is None and sample.exists():
                 feed, how = json.loads(sample.read_text(encoding="utf-8")), f"sample {sample.relative_to(ROOT)}"
         else:
             try:
@@ -298,7 +301,7 @@ def thumb(it, size="md"):
     s = SEC[it["section"]]
     if it.get("image"):
         return (f'<div class="thumb s-{s["key"]}"><img src="{e(it["image"])}" alt="" loading="lazy" decoding="async" '
-                f'width="640" height="360"></div>')
+                f'width="640" height="360" onerror="this.remove()"></div>')
     return f'<div class="thumb s-{s["key"]} art" aria-hidden="true"><span>{e(s["name"][0])}</span></div>'
 
 
@@ -480,7 +483,7 @@ def build_story(st, all_items):
       <span class="kicker k-{s['key']}">{e(s['name'])}</span>
       <h1>{e(st['title'])}</h1>
       <p class="dek">{e(st['dek'])}</p>
-      <p class="byline">By the {e(NAME)} desk &middot; <time datetime="{d.isoformat()}">{nice_date(d)}</time></p>
+      <p class="byline">By {e(NAME)} staff &middot; <time datetime="{d.isoformat()}">{nice_date(d)}</time></p>
     </header>
     <div class="story-body">
 {''.join(parts)}
@@ -672,7 +675,9 @@ def main():
     else:
         for g in ("section", "story", "about", "contact", "privacy", "terms"):
             shutil.rmtree(out / g, ignore_errors=True)
-        Ctx.feeds_js = json.dumps([{"section": s["key"], "url": s["feed"]} for s in SECTIONS])
+        # Only refresh in the browser the feeds that answered at build time (live or cached), so a site
+        # whose DNS is not set up yet does not log network errors on every page view.
+        Ctx.feeds_js = json.dumps([{"section": s["key"], "url": s["feed"]} for s in SECTIONS if raw.get(s["key"])])
 
     hub = [story_item(s) for s in stories]
     all_items = sorted(hub + [i for v in feeds.values() for i in v], key=lambda i: i["date"], reverse=True)

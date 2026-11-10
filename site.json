@@ -1,7 +1,7 @@
 {
   "name": "The Quillmark",
   "tagline": "Seven beats, one front page",
-  "description": "The Quillmark is the front page of the samcbarth.com network: housing, tools and tech, gaming, streaming, home repair and deals news in one place, with every story linked to its source.",
+  "description": "Housing, tech, gaming, streaming, home repair and deals news in one front page, with every story linked to its source.",
   "base": "https://news.samcbarth.com",
   "locale": "en_US",
   "timezone_offset": "-06:00",

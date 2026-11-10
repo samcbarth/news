@@ -1,6 +1,6 @@
 # The Quillmark
 
-> The Quillmark is the front page of the samcbarth.com network: housing, tools and tech, gaming, streaming, home repair and deals news in one place, with every story linked to its source.
+> Housing, tech, gaming, streaming, home repair and deals news in one front page, with every story linked to its source.
 
 Hub of the samcbarth.com network. Section headlines link to the network site that published them; stories under /story/ are written here and cite primary sources.
 
