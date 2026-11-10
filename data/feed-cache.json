@@ -1,1 +1,704 @@
-{}
+{
+ "realestate": {
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Deal Math Market Brief (Deal Math)",
+  "home_page_url": "https://realestate.samcbarth.com/news/",
+  "feed_url": "https://realestate.samcbarth.com/news/feed.json",
+  "description": "Sourced real estate news for investors from realestate.samcbarth.com.",
+  "language": "en-US",
+  "icon": "https://realestate.samcbarth.com/assets/og/default.jpg",
+  "authors": [
+   {
+    "name": "Sam Barth",
+    "url": "https://samcbarth.com"
+   }
+  ],
+  "items": [
+   {
+    "id": "https://realestate.samcbarth.com/news/mortgage-rates-fall-third-week/",
+    "url": "https://realestate.samcbarth.com/news/mortgage-rates-fall-third-week/",
+    "title": "30-year mortgage rate eases to 7.18%, third weekly decline",
+    "summary": "Freddie Mac's weekly survey put the average 30-year fixed rate at 7.18% on November 5, down from 7.24% a week earlier but up from 6.22% a year ago.",
+    "content_text": "Freddie Mac's weekly survey put the average 30-year fixed rate at 7.18% on November 5, down from 7.24% a week earlier but up from 6.22% a year ago.",
+    "image": "https://realestate.samcbarth.com/assets/og/news-mortgage-rates-fall-third-week.jpg",
+    "date_published": "2026-11-05T12:00:00-06:00",
+    "tags": [
+     "mortgage rates",
+     "national"
+    ],
+    "external_url": "https://www.freddiemac.com/pmms"
+   },
+   {
+    "id": "https://realestate.samcbarth.com/news/oklahoma-sq-847-fails/",
+    "url": "https://realestate.samcbarth.com/news/oklahoma-sq-847-fails/",
+    "title": "Oklahoma voters reject SQ 847, keeping the 3% and 5% property value caps",
+    "summary": "State Question 847, which would have cut Oklahoma's yearly cap on taxable value growth from 3% to 1.75% for homesteads and ag land and from 5% to 4% for other property, failed on November 3.",
+    "content_text": "State Question 847, which would have cut Oklahoma's yearly cap on taxable value growth from 3% to 1.75% for homesteads and ag land and from 5% to 4% for other property, failed on November 3.",
+    "image": "https://realestate.samcbarth.com/assets/og/news-oklahoma-sq-847-fails.jpg",
+    "date_published": "2026-11-04T12:00:00-06:00",
+    "tags": [
+     "Oklahoma",
+     "property tax"
+    ],
+    "external_url": "https://www.news9.com/oklahoma-elections/oklahoma-state-question-847-results"
+   },
+   {
+    "id": "https://realestate.samcbarth.com/news/fed-holds-rates/",
+    "url": "https://realestate.samcbarth.com/news/fed-holds-rates/",
+    "title": "Fed holds its target range at 3.75% to 4%, with two votes for a hike",
+    "summary": "The Federal Open Market Committee left the federal funds target range at 3-3/4 to 4 percent on October 28; Lisa Cook and Beth Hammack dissented in favor of a quarter-point increase.",
+    "content_text": "The Federal Open Market Committee left the federal funds target range at 3-3/4 to 4 percent on October 28; Lisa Cook and Beth Hammack dissented in favor of a quarter-point increase.",
+    "image": "https://realestate.samcbarth.com/assets/og/news-fed-holds-rates.jpg",
+    "date_published": "2026-10-28T12:00:00-06:00",
+    "tags": [
+     "interest rates",
+     "national"
+    ],
+    "external_url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf"
+   },
+   {
+    "id": "https://realestate.samcbarth.com/news/texas-home-sales-slow-august/",
+    "url": "https://realestate.samcbarth.com/news/texas-home-sales-slow-august/",
+    "title": "Texas home sales fell 4.7% from a year earlier in August as inventory stayed high",
+    "summary": "The Texas Real Estate Research Center reported 28,740 closed sales in August, down 4.7% year over year, a $330,000 median price and 5.3 months of inventory.",
+    "content_text": "The Texas Real Estate Research Center reported 28,740 closed sales in August, down 4.7% year over year, a $330,000 median price and 5.3 months of inventory.",
+    "image": "https://realestate.samcbarth.com/assets/og/news-texas-home-sales-slow-august.jpg",
+    "date_published": "2026-10-23T12:00:00-06:00",
+    "tags": [
+     "Texas",
+     "housing market"
+    ],
+    "external_url": "https://trerc.tamu.edu/reports/texas-housing-insight-october-2026/"
+   },
+   {
+    "id": "https://realestate.samcbarth.com/news/housing-starts-september/",
+    "url": "https://realestate.samcbarth.com/news/housing-starts-september/",
+    "title": "U.S. housing starts fell 5.2% in September to a 1.22 million pace",
+    "summary": "Census Bureau data showed September housing starts at a seasonally adjusted annual rate of 1,221,000, down 5.2% from August and 7.4% from a year earlier; permits were 1,400,000.",
+    "content_text": "Census Bureau data showed September housing starts at a seasonally adjusted annual rate of 1,221,000, down 5.2% from August and 7.4% from a year earlier; permits were 1,400,000.",
+    "image": "https://realestate.samcbarth.com/assets/og/news-housing-starts-september.jpg",
+    "date_published": "2026-10-20T12:00:00-06:00",
+    "tags": [
+     "construction",
+     "national"
+    ],
+    "external_url": "https://www.census.gov/construction/nrc/current/index.html"
+   },
+   {
+    "id": "https://realestate.samcbarth.com/news/existing-home-sales-september/",
+    "url": "https://realestate.samcbarth.com/news/existing-home-sales-september/",
+    "title": "Existing-home sales rose 1.5% in September; median price $417,500",
+    "summary": "NAR reported existing-home sales at a 3.99 million annual rate in September, up 1.5% from August and down 2.2% from a year earlier, with a 4.8-month supply.",
+    "content_text": "NAR reported existing-home sales at a 3.99 million annual rate in September, up 1.5% from August and down 2.2% from a year earlier, with a 4.8-month supply.",
+    "image": "https://realestate.samcbarth.com/assets/og/news-existing-home-sales-september.jpg",
+    "date_published": "2026-10-13T12:00:00-06:00",
+    "tags": [
+     "housing market",
+     "national"
+    ],
+    "external_url": "https://www.nar.realtor/newsroom/existing-home-sales-increased-1-5-in-september-according-to-nar-report"
+   }
+  ]
+ },
+ "tools": {
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Toolbench Dispatch",
+  "home_page_url": "https://tools.samcbarth.com/news/",
+  "feed_url": "https://tools.samcbarth.com/news/feed.json",
+  "description": "Marketing tech, SEO and AI search, and developer tools news from tools.samcbarth.com.",
+  "icon": "https://tools.samcbarth.com/assets/og.png",
+  "favicon": "https://tools.samcbarth.com/assets/favicon.svg",
+  "language": "en-US",
+  "authors": [
+   {
+    "name": "Sam Barth",
+    "url": "https://samcbarth.com/"
+   }
+  ],
+  "items": [
+   {
+    "id": "https://tools.samcbarth.com/news/google-ai-plus-loses-pro-models/",
+    "url": "https://tools.samcbarth.com/news/google-ai-plus-loses-pro-models/",
+    "title": "Google AI Plus subscribers lose Pro model choice in AI Mode on November 13",
+    "summary": "Starting November 13, 2026, Google AI Plus subscribers can only pick Flash and Flash-Lite models in the Gemini app and in AI Mode in Google Search. Pro model selection moves to the Google AI Pro plan and above.",
+    "content_text": "Starting November 13, 2026, Google AI Plus subscribers can only pick Flash and Flash-Lite models in the Gemini app and in AI Mode in Google Search. Pro model selection moves to the Google AI Pro plan and above.\n\nNotebookcheck reported that Google is removing Pro model access from its Google AI Plus subscription from November 13, 2026.\n\nAfter the change, AI Plus subscribers can choose Flash and Flash-Lite in the Gemini app and in AI Mode in Google Search. Picking a Pro model will need Google AI Pro, which the report lists at $19.99 a month, or a higher plan.",
+    "date_published": "2026-11-08T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "SEO and AI search",
+     "Google"
+    ],
+    "external_url": "https://www.notebookcheck.net/Google-AI-Plus-loses-Gemini-Pro-models-on-November-13.1445681.0.html"
+   },
+   {
+    "id": "https://tools.samcbarth.com/news/hubspot-q3-2026-results/",
+    "url": "https://tools.samcbarth.com/news/hubspot-q3-2026-results/",
+    "title": "HubSpot reports Q3 2026 revenue of $947.6 million, up 17%",
+    "summary": "HubSpot's third quarter 2026 revenue was $947.6 million, up 17% year over year, and it ended September with 311,704 customers, according to its results release filed with the SEC.",
+    "content_text": "HubSpot's third quarter 2026 revenue was $947.6 million, up 17% year over year, and it ended September with 311,704 customers, according to its results release filed with the SEC.\n\nHubSpot published its third quarter 2026 results on November 4, 2026. Total revenue was $947.6 million, up 17% both as reported and in constant currency. Subscription revenue was $930.2 million.\n\nThe company ended the quarter on September 30, 2026 with 311,704 customers. Average subscription revenue per customer was $12,038.\n\nFor the fourth quarter, HubSpot guided to revenue of $945.0 million to $947.0 million.",
+    "date_published": "2026-11-04T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "Marketing tech",
+     "HubSpot"
+    ],
+    "external_url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526447249/hubs-ex99_1.htm"
+   },
+   {
+    "id": "https://tools.samcbarth.com/news/hubspot-sunsets-design-manager-serverless-node20/",
+    "url": "https://tools.samcbarth.com/news/hubspot-sunsets-design-manager-serverless-node20/",
+    "title": "HubSpot sets February 2027 shutdown for design manager serverless functions",
+    "summary": "HubSpot is retiring serverless functions built in the design manager and Node.js 20 and earlier for workflow custom code actions. Existing design manager functions stop running on February 1, 2027.",
+    "content_text": "HubSpot is retiring serverless functions built in the design manager and Node.js 20 and earlier for workflow custom code actions. Existing design manager functions stop running on February 1, 2027.\n\nHubSpot's developer changelog announced on November 3, 2026 that serverless functions built in the design manager, and Node.js 20 and earlier for workflow custom code actions, are being sunset. Node.js 24 is now available for custom code actions.\n\nFrom November 3, new design manager serverless functions and new Node.js 20 custom code actions can no longer be created. From November 17, 2026, existing ones can no longer be edited, though they keep running.\n\nOn February 1, 2027, design manager serverless functions stop running and requests to `/_hcms/api/` endpoints fail. HubSpot asks developers to rebuild those functions in developer projects and to move custom code actions to Node.js 24. Projects on older platform versions should be upgraded with `hs project migrate`.",
+    "date_published": "2026-11-03T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "Dev tools",
+     "HubSpot"
+    ],
+    "external_url": "https://developers.hubspot.com/changelog/sunsetting-design-manager-serverless-functions-and-older-node.js-runtimes-for-custom-code-actions"
+   },
+   {
+    "id": "https://tools.samcbarth.com/news/chrome-devtools-november-2026/",
+    "url": "https://tools.samcbarth.com/news/chrome-devtools-november-2026/",
+    "title": "Chrome DevTools update adds more tools for AI coding agents",
+    "summary": "Chrome's November 2026 DevTools update, covering Chrome 155 and 156, expands DevTools for agents with CSS style inspection, configuration file support and chunked trace parsing, and adds a visual position-area editor for CSS anchors.",
+    "content_text": "Chrome's November 2026 DevTools update, covering Chrome 155 and 156, expands DevTools for agents with CSS style inspection, configuration file support and chunked trace parsing, and adds a visual position-area editor for CSS anchors.\n\nThe Chrome for Developers blog published its \"New in DevTools\" round-up for November 2026 on October 20, covering Chrome 155 and 156.\n\nDevTools for agents, the MCP server that lets coding agents drive DevTools, gains CSS style inspection, configuration file support, and chunked trace parsing for large performance traces.\n\nFor people using DevTools directly, the Elements panel gets a visual editor for the CSS anchor `position-area` property, and the Application panel adds diagnostics for Web Install manifests.",
+    "date_published": "2026-10-20T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "Dev tools",
+     "Chrome"
+    ],
+    "external_url": "https://developer.chrome.com/blog/new-in-devtools-november-2026"
+   },
+   {
+    "id": "https://tools.samcbarth.com/news/google-september-2026-spam-update-complete/",
+    "url": "https://tools.samcbarth.com/news/google-september-2026-spam-update-complete/",
+    "title": "Google's September 2026 spam update finished after nearly two weeks",
+    "summary": "Google's September 2026 spam update, its fourth spam update of the year, started September 24 and finished on October 8, 2026, a rollout of almost two weeks.",
+    "content_text": "Google's September 2026 spam update, its fourth spam update of the year, started September 24 and finished on October 8, 2026, a rollout of almost two weeks.\n\nGoogle began rolling out the September 2026 spam update on September 24 and said it applied globally and to all languages. The rollout completed on October 8, 2026.\n\nSearch Engine Land reported the rollout took almost two weeks, while the previous few spam updates took about two days. Google described it as a normal spam update with nothing specifically new.",
+    "date_published": "2026-10-08T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "SEO and AI search",
+     "Google"
+    ],
+    "external_url": "https://searchengineland.com/google-september-2026-spam-update-done-rolling-out-493550"
+   },
+   {
+    "id": "https://tools.samcbarth.com/news/hubspot-domains-tls-1-2/",
+    "url": "https://tools.samcbarth.com/news/hubspot-domains-tls-1-2/",
+    "title": "HubSpot-hosted domains now require TLS 1.2 or newer",
+    "summary": "HubSpot automatically raised the minimum TLS version for domains it hosts to TLS 1.2 on October 14, 2026, for accounts that had allowed TLS 1.0 or 1.1. No action was required.",
+    "content_text": "HubSpot automatically raised the minimum TLS version for domains it hosts to TLS 1.2 on October 14, 2026, for accounts that had allowed TLS 1.0 or 1.1. No action was required.\n\nHubSpot posted on October 6, 2026 that domain security settings would move to a minimum of TLS 1.2. The change went live on October 14, 2026.\n\nIt affects accounts that had set the minimum TLS version for HubSpot-hosted domains to 1.0 or 1.1. HubSpot said the update is automatic and needs no action.",
+    "date_published": "2026-10-06T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "Marketing tech",
+     "HubSpot",
+     "Security"
+    ],
+    "external_url": "https://developers.hubspot.com/changelog/upcoming-automatic-update-hubspot-domain-security-settings-to-tls-1.2"
+   },
+   {
+    "id": "https://tools.samcbarth.com/news/hubspot-pipelines-api-v1-sunset/",
+    "url": "https://tools.samcbarth.com/news/hubspot-pipelines-api-v1-sunset/",
+    "title": "HubSpot Pipelines API v1 shuts off December 4, 2026",
+    "summary": "HubSpot will sunset its Pipelines API v1 on December 4, 2026. Integrations still calling it need to move to a 2026-03 or newer version of the Pipelines API.",
+    "content_text": "HubSpot will sunset its Pipelines API v1 on December 4, 2026. Integrations still calling it need to move to a 2026-03 or newer version of the Pipelines API.\n\nHubSpot announced on August 14, 2026 that the Pipelines API v1 will be sunset on December 4, 2026.\n\nHubSpot recommends migrating to the Pipelines API 2026-09 version, auditing code for any v1 pipeline calls, and finishing the move well before the deadline. Versions 2026-03 and newer are supported.",
+    "date_published": "2026-08-14T12:00:00Z",
+    "image": "https://tools.samcbarth.com/assets/og.png",
+    "tags": [
+     "Dev tools",
+     "HubSpot"
+    ],
+    "external_url": "https://developers.hubspot.com/changelog/pipelines-api-v1-sunset"
+   }
+  ]
+ },
+ "games": {
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Lunchbreak Dispatch (Lunchbreak Arcade)",
+  "home_page_url": "https://games.samcbarth.com/news/",
+  "feed_url": "https://games.samcbarth.com/news/feed.json",
+  "description": "Short, sourced write-ups on the gaming industry, indie games and browser games, with links to every original source.",
+  "language": "en",
+  "icon": "https://games.samcbarth.com/assets/img/og-default.webp",
+  "authors": [
+   {
+    "name": "Sam Barth",
+    "url": "https://samcbarth.com"
+   }
+  ],
+  "items": [
+   {
+    "id": "https://games.samcbarth.com/news/sag-aftra-pre-funding-pitch-agreement-games/",
+    "url": "https://games.samcbarth.com/news/sag-aftra-pre-funding-pitch-agreement-games/",
+    "title": "SAG-AFTRA adds a pitch agreement for indie game demos",
+    "summary": "A new union agreement lets small developers hire SAG-AFTRA performers for demos and vertical slices made to raise funding, with negotiable pitch fees.",
+    "content_text": "SAG-AFTRA has introduced a Pre-Funding Pitch Interactive Media Agreement that lets small game developers hire union voice and motion performers for demos, trailers and vertical slices shown to investors, Voice Over Herald reported on November 7, 2026. The union announced it on November 5.\n\nPer the report, it applies to projects with no more than 30% of their initial production funding secured. The pitch fee is negotiated between performer and producer with no minimum, though health and retirement contributions are still owed. Once funding passes 30% of the planned budget, or if a performer's pitch material is used in the finished game, the union's independent interactive terms apply, and earlier pay can be credited against scale.\n\nWhy it matters: small teams pitching a game have often had to choose between non-union talent and costs they could not cover before funding. This gives them a middle path.\n\nSource: Voice Over Herald https://www.voiceoverherald.com/sag-aftra-pre-funding-pitch-agreement-game-demos-voice-actors/",
+    "external_url": "https://www.voiceoverherald.com/sag-aftra-pre-funding-pitch-agreement-game-demos-voice-actors/",
+    "image": "https://games.samcbarth.com/assets/img/news-sag-aftra-pre-funding-pitch-agreement-games.webp",
+    "date_published": "2026-11-07T12:00:00Z",
+    "tags": [
+     "indie",
+     "industry",
+     "voice acting"
+    ]
+   },
+   {
+    "id": "https://games.samcbarth.com/news/nintendo-first-half-profit-up-sales-down/",
+    "url": "https://games.samcbarth.com/news/nintendo-first-half-profit-up-sales-down/",
+    "title": "Nintendo reports higher first-half profit on lower sales",
+    "summary": "Nintendo's April to September net profit rose 11% to 220.9 billion yen while sales fell 12% to 966 billion yen.",
+    "content_text": "Nintendo reported an 11% rise in net profit for April through September 2026, to 220.9 billion yen (about $1.4 billion), up from nearly 199 billion yen a year earlier, the Associated Press reported on November 5. Sales for the six months fell 12% to 966 billion yen.\n\nAccording to the report, Star Fox and Splatoon Raiders sold well in the period, Mario Kart World stayed in demand, and digital sales kept growing. Nintendo kept its full-year forecast unchanged at 310 billion yen in profit on 2 trillion yen in sales, and cited a chip shortage and rising component prices tied to demand from artificial intelligence.\n\nWhy it matters: rising component costs are a pressure point on the hardware side of gaming this year, which is one reason instant-play formats like browser games keep their audience.\n\nSource: Associated Press https://apnews.com/article/nintendo-earnings-japan-games-mario-profit-0623978a01041bf7dc5625980a5a2c0d",
+    "external_url": "https://apnews.com/article/nintendo-earnings-japan-games-mario-profit-0623978a01041bf7dc5625980a5a2c0d",
+    "image": "https://games.samcbarth.com/assets/img/news-nintendo-first-half-profit-up-sales-down.webp",
+    "date_published": "2026-11-05T12:00:00Z",
+    "tags": [
+     "industry",
+     "nintendo",
+     "earnings"
+    ]
+   },
+   {
+    "id": "https://games.samcbarth.com/news/xbox-indie-selects-november-2026/",
+    "url": "https://games.samcbarth.com/news/xbox-indie-selects-november-2026/",
+    "title": "Xbox names six Indie Selects for November 2026",
+    "summary": "The ID@Xbox team picked six indie games for November, including Graveyard Keeper 2, Warhammer 40,000: Boltgun 2 and Ratatan.",
+    "content_text": "Xbox Wire published its Indie Selects list for November 2026 on November 4. Indie Selects is a set of indie games picked by the ID@Xbox team and collected in a hub in the Xbox Store.\n\nThis month's six picks are Silver Pines, Graveyard Keeper 2, Warhammer 40,000: Boltgun 2, Colorbound, Ratatan and Tenebris Somnia. Xbox Wire marks Colorbound, Ratatan and Tenebris Somnia as Xbox Play Anywhere titles, meaning one purchase covers both Xbox console and Windows PC.\n\nWhy it matters: curated store lists like this are one of the few ways smaller games get front-page placement on a console storefront.\n\nSource: Xbox Wire https://news.xbox.com/en-us/2026/11/04/indie-selects-november/",
+    "external_url": "https://news.xbox.com/en-us/2026/11/04/indie-selects-november/",
+    "image": "https://games.samcbarth.com/assets/img/news-xbox-indie-selects-november-2026.webp",
+    "date_published": "2026-11-04T12:00:00Z",
+    "tags": [
+     "indie",
+     "xbox",
+     "releases"
+    ]
+   },
+   {
+    "id": "https://games.samcbarth.com/news/takara-tomy-enjoyn-games-indie-label/",
+    "url": "https://games.samcbarth.com/news/takara-tomy-enjoyn-games-indie-label/",
+    "title": "Toy maker Takara Tomy launches Enjoyn Games, an indie publishing label",
+    "summary": "Takara Tomy has entered game publishing with Enjoyn Games and three party titles for Steam, starting with a burger-stacking social deduction game.",
+    "content_text": "Japanese toy company Takara Tomy has launched an indie game publishing brand called Enjoyn Games, Automaton reported on November 4, 2026. The label announced three games for Steam.\n\nThe debut title, Stack & Sus, is a physics-based social deduction game for 3 to 6 players who work together to stack a giant burger while hidden Spies try to sabotage it. The other two are Little Cheese Works, a voice-chat co-op game about mice working at a cheese company without alerting a cat, and Sloppy Forgeries, a painting party game where players recreate classic artworks with limited tools and are scored pixel by pixel.\n\nWhy it matters: a large toy company putting its name behind small party games is a sign that indie publishing still looks attractive to companies outside the games business.\n\nSource: Automaton https://automaton-media.com/en/news/japanese-toy-giant-takara-tomy-announces-its-own-indie-game-publishing-label-enjoyn-games-debut-title-is-a-burger-stacking-social-deduction-game/",
+    "external_url": "https://automaton-media.com/en/news/japanese-toy-giant-takara-tomy-announces-its-own-indie-game-publishing-label-enjoyn-games-debut-title-is-a-burger-stacking-social-deduction-game/",
+    "image": "https://games.samcbarth.com/assets/img/news-takara-tomy-enjoyn-games-indie-label.webp",
+    "date_published": "2026-11-04T12:00:00Z",
+    "tags": [
+     "indie",
+     "publishing",
+     "party games"
+    ]
+   },
+   {
+    "id": "https://games.samcbarth.com/news/buy-a-quebec-video-game-day-november-14/",
+    "url": "https://games.samcbarth.com/news/buy-a-quebec-video-game-day-november-14/",
+    "title": "Quebec holds its first Buy a Quebec Video Game Day on November 14",
+    "summary": "La Guilde du jeu video du Quebec is promoting games made in the province with a one-day event and a portal listing more than 400 titles.",
+    "content_text": "Saturday, November 14, 2026 is the first Buy a Quebec Video Game Day, announced on November 4 by La Guilde du jeu video du Quebec, the province's video game industry guild, working with Rouge marketing.\n\nThe event asks players to discover and buy games made in Quebec. Alongside it, the guild launched a portal called Jeux video du Quebec that lists more than 400 games developed in the province.\n\nWhy it matters: regional buy-local days are a low-cost way to surface smaller studios before the holiday rush, and the portal stays useful after the day itself.\n\nSource: CNW press release via Yahoo Finance https://finance.yahoo.com/news/first-ever-buy-qu-bec-132200769.html",
+    "external_url": "https://finance.yahoo.com/news/first-ever-buy-qu-bec-132200769.html",
+    "image": "https://games.samcbarth.com/assets/img/news-buy-a-quebec-video-game-day-november-14.webp",
+    "date_published": "2026-11-04T12:00:00Z",
+    "tags": [
+     "indie",
+     "events",
+     "canada"
+    ]
+   },
+   {
+    "id": "https://games.samcbarth.com/news/steam-wishlists-wheel-make-it-15-players/",
+    "url": "https://games.samcbarth.com/news/steam-wishlists-wheel-make-it-15-players/",
+    "title": "Indie publisher says 11,000 wishlists turned into a 15-player peak",
+    "summary": "Publisher 2 Left Thumbs blamed a Steam approval delay and a flood of low-effort AI games after Wheel Make It peaked at 15 concurrent players.",
+    "content_text": "Indie publisher 2 Left Thumbs said its game Wheel Make It reached a peak of only 15 concurrent players on Steam after launch, despite more than 11,000 wishlists, according to a November 3, 2026 report from PC Guide. The publisher pointed to a delay in Steam's approval process and what it called a wave of AI-made games crowding the store.\n\nWhy it matters: wishlists are often treated as the main signal of how a Steam launch will go. This is one more public example of that signal falling short, and of small teams struggling for visibility when thousands of games release each week.\n\nFor indie developers, the takeaway is not new but worth repeating: plan launch timing with store review times in mind, and keep building an audience outside the store page.\n\nSource: PC Guide https://www.pcguide.com/news/indie-game-publisher-blames-steam-approval-delay-and-tidal-wave-of-ai-slop-after-game-peaks-at-just-15-players/",
+    "external_url": "https://www.pcguide.com/news/indie-game-publisher-blames-steam-approval-delay-and-tidal-wave-of-ai-slop-after-game-peaks-at-just-15-players/",
+    "image": "https://games.samcbarth.com/assets/img/news-steam-wishlists-wheel-make-it-15-players.webp",
+    "date_published": "2026-11-03T12:00:00Z",
+    "tags": [
+     "indie",
+     "steam",
+     "industry"
+    ]
+   },
+   {
+    "id": "https://games.samcbarth.com/news/xsolla-acquires-gamepix-browser-games/",
+    "url": "https://games.samcbarth.com/news/xsolla-acquires-gamepix-browser-games/",
+    "title": "Xsolla buys GamePix, a browser games platform with 10,000+ titles",
+    "summary": "Commerce company Xsolla has acquired GamePix, which publishes and distributes web games and ports PC and mobile titles to the browser.",
+    "content_text": "Xsolla, a company that sells payment and commerce tools to game developers, announced on October 21, 2026 that it has acquired GamePix, a platform that publishes and distributes browser games. The announcement says GamePix brings a catalog of more than 10,000 web titles and a community of over 4,000 developers. No price was disclosed.\n\nGamePix was founded in 2013, when web games still ran on Flash, and has since moved through HTML5, WebGL and WebGPU. Xsolla says GamePix's porting technology converts Unity and C++ games for PC and mobile into web builds up to 90% smaller in load size. The release adds that GamePix has been part of Xsolla since August 2026.\n\nWhy it matters: browser games are getting more attention from bigger companies again. For players, the pitch is the same one this site is built on: no download, nothing to install, play in a tab.\n\nSource: Business Wire (Xsolla press release) https://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games",
+    "external_url": "https://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games",
+    "image": "https://games.samcbarth.com/assets/img/news-xsolla-acquires-gamepix-browser-games.webp",
+    "date_published": "2026-10-21T12:00:00Z",
+    "tags": [
+     "browser games",
+     "industry",
+     "acquisitions"
+    ]
+   }
+  ]
+ },
+ "streaming": {
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "The Stream Desk (Streaming Price Check)",
+  "home_page_url": "https://streaming.samcbarth.com/news/",
+  "feed_url": "https://streaming.samcbarth.com/news/feed.json",
+  "description": "Streaming price changes, new services and sports rights.",
+  "language": "en-US",
+  "icon": "https://streaming.samcbarth.com/assets/img/og-default.webp",
+  "authors": [
+   {
+    "name": "Sam Barth",
+    "url": "https://samcbarth.com"
+   }
+  ],
+  "items": [
+   {
+    "id": "https://streaming.samcbarth.com/news/walmart-onn-google-tv-price-hike-november-2026/",
+    "url": "https://streaming.samcbarth.com/news/walmart-onn-google-tv-price-hike-november-2026/",
+    "title": "Walmart raises prices on its onn Google TV streamers by $10",
+    "summary": "Walmart's onn Google TV lineup now costs $10 more per device, with the 4K Pro at $69.98 and the Full HD stick at $39.98.",
+    "content_text": "Walmart has raised the price of every device in its onn Google TV streaming lineup by $10, according to a 9to5Google report published November 9, 2026. The onn 4K Pro moved from $59.98 to $69.98, the 4K Plus from $49.98 to $59.98, the 4K Streaming Stick from $39.98 to $49.98, and the Full HD Streaming Stick from $29.98 to $39.98.\n\nThe report links the increase to rising memory chip costs across consumer electronics. It is not the first increase for the line this year.\n\nWhy it matters: onn devices were the cheapest way to get Google TV software. The gap between them and name-brand sticks is now smaller, so it is worth comparing against Roku and Fire TV sale prices before buying.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-walmart-onn-google-tv-price-hike-november-2026.webp",
+    "date_published": "2026-11-09T12:00:00-06:00",
+    "tags": [
+     "devices",
+     "prices",
+     "google-tv"
+    ],
+    "external_url": "https://9to5google.com/2026/11/09/walmart-google-tv-streamer-lineup-price-hike/"
+   },
+   {
+    "id": "https://streaming.samcbarth.com/news/nba-teams-dazn-local-streaming-2026/",
+    "url": "https://streaming.samcbarth.com/news/nba-teams-dazn-local-streaming-2026/",
+    "title": "Five NBA teams moved local games to DAZN this season",
+    "summary": "Five NBA teams signed exclusive local streaming deals with DAZN before the 2026-27 season, keeping only some games on over-the-air TV.",
+    "content_text": "Five NBA teams signed exclusive contracts with the streaming service DAZN before the 2026-27 season, Awful Announcing reported on October 28, 2026. Their local broadcasts now stream on DAZN, apart from a select number of games simulcast on local over-the-air stations.\n\nThe analysis argues that moving local games behind a streaming paywall risks losing casual viewers, and that MLB should watch the results as it considers its own local rights plans.\n\nWhy it matters: if your team is one of them, a cable or live TV package may no longer carry most local games. Check your team's official broadcast page before you renew a live TV service for basketball.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-nba-teams-dazn-local-streaming-2026.webp",
+    "date_published": "2026-10-28T12:00:00-06:00",
+    "tags": [
+     "sports",
+     "nba",
+     "regional-sports"
+    ],
+    "external_url": "https://awfulannouncing.com/nba/mlb-dazn-experiment-warning-streaming-regional-sports-networks.html"
+   },
+   {
+    "id": "https://streaming.samcbarth.com/news/netflix-2030-world-cup-spain-rights/",
+    "url": "https://streaming.samcbarth.com/news/netflix-2030-world-cup-spain-rights/",
+    "title": "Netflix wins Spanish rights to the 2030 men's World Cup",
+    "summary": "Netflix will stream all 104 matches of the 2030 World Cup in Spain. US rights for 2030 and 2034 have not been sold yet.",
+    "content_text": "Netflix has acquired the rights to the 2030 men's World Cup in Spain and will stream all 104 matches there, according to reporting by The Athletic carried by Yahoo Sports on October 13, 2026. One match per matchday will be free to watch in Spain, and a national free-to-air broadcaster gets a package that includes every Spain match, both semifinals and the final.\n\nThe deal is Netflix's first foothold in the men's World Cup. In the US, FIFA has not yet sold the 2030 and 2034 rights, and the report lists Fox, NBC, Disney, YouTube, Prime Video and Apple among the reported bidders. Netflix already holds US rights to the 2027 and 2031 Women's World Cups.\n\nWhy it matters for US viewers: nothing changes yet, but Netflix is now a serious bidder for major live sports, which could shape which services carry the biggest events later this decade.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-netflix-2030-world-cup-spain-rights.webp",
+    "date_published": "2026-10-13T12:00:00-06:00",
+    "tags": [
+     "sports",
+     "netflix",
+     "soccer",
+     "rights"
+    ],
+    "external_url": "https://sports.yahoo.com/articles/netflix-acquires-spanish-rights-2030-143025419.html"
+   },
+   {
+    "id": "https://streaming.samcbarth.com/news/disney-plus-hulu-price-increase-september-2026/",
+    "url": "https://streaming.samcbarth.com/news/disney-plus-hulu-price-increase-september-2026/",
+    "title": "Disney+ and Hulu ad-free plans rise to $21.49 a month",
+    "summary": "Disney raised its standalone ad-free Disney+ and Hulu plans by $2.50 to $21.49 each; the ad-free Disney+, Hulu bundle went to $21.99.",
+    "content_text": "Disney raised prices across Disney+ and Hulu, CBS News reported on September 23, 2026. The standalone ad-free Disney+ Premium and Hulu Premium plans each rose by $2.50, or 13 percent, to $21.49 a month. The ad-free Disney+, Hulu Bundle Premium rose by $2, from $19.99 to $21.99.\n\nDisney's own help pages now list Disney+ with ads at $12.49 and the Disney+, Hulu bundle with ads at $12.99.\n\nWhy it matters: ad-free Disney+ alone now costs only 50 cents less than the ad-free bundle that adds Hulu. If you pay for either service ad-free, the bundle is the better deal.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-disney-plus-hulu-price-increase-september-2026.webp",
+    "date_published": "2026-09-23T12:00:00-06:00",
+    "tags": [
+     "prices",
+     "disney-plus",
+     "hulu"
+    ],
+    "external_url": "https://www.cbsnews.com/news/disney-plus-hulu-price-increase/"
+   },
+   {
+    "id": "https://streaming.samcbarth.com/news/apple-tv-price-increase-august-2026/",
+    "url": "https://streaming.samcbarth.com/news/apple-tv-price-increase-august-2026/",
+    "title": "Apple TV streaming price rises to $14.99 a month",
+    "summary": "Apple raised its Apple TV subscription from $12.99 to $14.99 a month and the annual plan from $99 to $119, effective immediately.",
+    "content_text": "Apple raised the price of its Apple TV streaming service in the US on August 28, 2026, CNBC reported. The monthly plan went from $12.99 to $14.99 and the annual plan from $99 to $119. The report says Apple One prices also rose.\n\nApple's own Apple TV page now lists $14.99 a month, with a 7-day free trial or three months free with a qualifying new Apple device.\n\nWhy it matters: Apple TV is still ad-free with 4K included, but it now costs more than Paramount+ Premium. Annual billing remains the cheaper way to keep it all year.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-apple-tv-price-increase-august-2026.webp",
+    "date_published": "2026-08-28T12:00:00-06:00",
+    "tags": [
+     "prices",
+     "apple-tv"
+    ],
+    "external_url": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html"
+   },
+   {
+    "id": "https://streaming.samcbarth.com/news/peacock-price-increase-august-2026/",
+    "url": "https://streaming.samcbarth.com/news/peacock-price-increase-august-2026/",
+    "title": "Peacock raises prices on all three plans",
+    "summary": "Peacock Premium went to $12.99, Premium Plus to $19.99 and Select to $8.99, NBCUniversal's fourth Peacock price increase in four years.",
+    "content_text": "NBCUniversal raised prices on every Peacock plan, Variety reported on August 18, 2026. Peacock Premium, which includes ads, rose from $10.99 to $12.99 a month. Premium Plus rose $3, from $16.99 to $19.99. The Select tier, which covers NBC and Bravo shows but leaves out movies, live sports and originals, went from $7.99 to $8.99.\n\nPeacock's help center lists Premium Plus at $19.99 a month or $199.99 a year, and its price-increase page says the Apple TV and Peacock Premium Plus bundle rose from $19.99 to $22.99.\n\nWhy it matters: Premium at $12.99 is still one of the cheaper ways to get NFL and NBA games, but ad-free Peacock now costs as much as ad-free Netflix.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-peacock-price-increase-august-2026.webp",
+    "date_published": "2026-08-18T12:00:00-06:00",
+    "tags": [
+     "prices",
+     "peacock"
+    ],
+    "external_url": "https://variety.com/2026/tv/news/peacock-raises-prices-fourth-time-in-four-years-1236837016/"
+   },
+   {
+    "id": "https://streaming.samcbarth.com/news/prime-video-ultra-ad-free-4-99/",
+    "url": "https://streaming.samcbarth.com/news/prime-video-ultra-ad-free-4-99/",
+    "title": "Prime Video's ad-free option becomes Ultra at $4.99 a month",
+    "summary": "Amazon renamed its Prime Video ad-free add-on to Prime Video Ultra and raised it from $2.99 to $4.99 a month in the US.",
+    "content_text": "Amazon raised the price of ad-free Prime Video in the US from $2.99 to $4.99 a month, CNBC reported on March 13, 2026. Amazon's own announcement says the add-on is now called Prime Video Ultra.\n\nPrime Video itself is still included with an Amazon Prime membership, which Amazon lists at $14.99 a month or $139 a year. Standalone Prime Video is $8.99 a month.\n\nWhy it matters: ad-free Prime Video now costs $19.98 a month counting the Prime membership, about the same as ad-free Netflix. Prime members who tolerate ads pay nothing extra.",
+    "image": "https://streaming.samcbarth.com/assets/img/news-prime-video-ultra-ad-free-4-99.webp",
+    "date_published": "2026-03-13T12:00:00-06:00",
+    "tags": [
+     "prices",
+     "prime-video"
+    ],
+    "external_url": "https://www.cnbc.com/2026/03/13/amazon-to-hike-price-of-ad-free-prime-video-tier-by-2-a-month.html"
+   }
+  ]
+ },
+ "homerepair": {
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Fix It Notes Bulletin",
+  "home_page_url": "https://homerepair.samcbarth.com/news/",
+  "feed_url": "https://homerepair.samcbarth.com/news/feed.json",
+  "description": "Home repair news: recalls, rebates and safety alerts from Fix It Notes",
+  "language": "en-US",
+  "authors": [
+   {
+    "name": "Sam Barth"
+   }
+  ],
+  "icon": "https://homerepair.samcbarth.com/assets/og/news.png",
+  "items": [
+   {
+    "id": "https://homerepair.samcbarth.com/news/little-giant-ladder-rapid-lock-recall/",
+    "url": "https://homerepair.samcbarth.com/news/little-giant-ladder-rapid-lock-recall/",
+    "title": "Little Giant recalls about 3.66 million ladders with Rapid Locks over fall hazard",
+    "summary": "The CPSC and Little Giant announced a recall of about 3.66 million ladders with Rapid Locks because they can suddenly retract if the locks are not fully engaged. Owners should stop using them and contact Little Giant for a repair kit.",
+    "content_text": "The CPSC and Little Giant announced a recall of about 3.66 million ladders with Rapid Locks because they can suddenly retract if the locks are not fully engaged. Owners should stop using them and contact Little Giant for a repair kit.",
+    "date_published": "2026-11-05T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Recall",
+     "Ladders"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2027/Little-Giant-Recalls-Ladders-with-Rapid-Locks-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard"
+   },
+   {
+    "id": "https://homerepair.samcbarth.com/news/cpsc-warns-smoke-co-alarms-fail-to-alert/",
+    "url": "https://homerepair.samcbarth.com/news/cpsc-warns-smoke-co-alarms-fail-to-alert/",
+    "title": "CPSC warns two sets of combination smoke and CO alarms sold online fail to alarm",
+    "summary": "The CPSC told consumers to stop using JuzhiAnn, Yfwsrecinoe and JAEHSKA alarms (model JZA-540COM) and GuardianSense/KLTseanife alarms (model YHW-542COM-R) because they fail to sound in the presence of smoke and fire. The sellers have not agreed to recalls.",
+    "content_text": "The CPSC told consumers to stop using JuzhiAnn, Yfwsrecinoe and JAEHSKA alarms (model JZA-540COM) and GuardianSense/KLTseanife alarms (model YHW-542COM-R) because they fail to sound in the presence of smoke and fire. The sellers have not agreed to recalls.",
+    "date_published": "2026-10-29T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Safety warning",
+     "Smoke alarms"
+    ],
+    "external_url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-Yfwsrecinoe-Smoke-and-Carbon-Monoxide-Detectors-Immediately-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard"
+   },
+   {
+    "id": "https://homerepair.samcbarth.com/news/dreo-space-heater-recall-dr-hsh015/",
+    "url": "https://homerepair.samcbarth.com/news/dreo-space-heater-recall-dr-hsh015/",
+    "title": "DREO recalls about 338,800 DR-HSH015 ceramic space heaters for fire risk",
+    "summary": "DREO recalled about 338,800 DR-HSH015 ceramic space heaters made from April 2025 through January 2026 because they can overheat and ignite. Stop using them and contact DREO for a free replacement.",
+    "content_text": "DREO recalled about 338,800 DR-HSH015 ceramic space heaters made from April 2025 through January 2026 because they can overheat and ignite. Stop using them and contact DREO for a free replacement.",
+    "date_published": "2026-10-29T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Recall",
+     "Heating"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2027/DREO-Recalls-DR-HSH015-Space-Heaters-Due-to-Fire-and-Burn-Hazards"
+   },
+   {
+    "id": "https://homerepair.samcbarth.com/news/cpsc-warns-powryte-pressure-washers-shock/",
+    "url": "https://homerepair.samcbarth.com/news/cpsc-warns-powryte-pressure-washers-shock/",
+    "title": "CPSC warns PowRyte electric pressure washers lack GFCI protection at the plug",
+    "summary": "The CPSC warned consumers to stop using PowRyte pressure washers sold on Amazon and eBay because they lack a ground-fault circuit interrupter on or near the plug, creating a shock and electrocution risk. The manufacturer has not agreed to a recall.",
+    "content_text": "The CPSC warned consumers to stop using PowRyte pressure washers sold on Amazon and eBay because they lack a ground-fault circuit interrupter on or near the plug, creating a shock and electrocution risk. The manufacturer has not agreed to a recall.",
+    "date_published": "2026-10-22T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Safety warning",
+     "Outdoor tools"
+    ],
+    "external_url": "https://www.cpsc.gov/Warnings/2027/CPSC-Warns-Consumers-to-Stop-Using-PowRyte-Pressure-Washers-Immediately-Due-to-Serious-Shock-and-Electrocution-Hazards-Risk-of-Serious-Injury-or-Death"
+   },
+   {
+    "id": "https://homerepair.samcbarth.com/news/louisville-attic-ladder-recall-spreader-bolts/",
+    "url": "https://homerepair.samcbarth.com/news/louisville-attic-ladder-recall-spreader-bolts/",
+    "title": "Over one million attic stairway ladders recalled over breaking bolts",
+    "summary": "Louisville Ladder recalled more than one million Louisville, Featherlite, Lite and Century attic stairway ladders with gas struts because bolts can break. Owners can register for a free repair kit with replacement spreader bolts.",
+    "content_text": "Louisville Ladder recalled more than one million Louisville, Featherlite, Lite and Century attic stairway ladders with gas struts because bolts can break. Owners can register for a free repair kit with replacement spreader bolts.",
+    "date_published": "2026-08-06T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Recall",
+     "Ladders"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2026/Louisville-Ladder-Recalls-Over-One-Million-Attic-Stairway-Ladders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
+   },
+   {
+    "id": "https://homerepair.samcbarth.com/news/new-hampshire-hear-rebates-fall-2026/",
+    "url": "https://homerepair.samcbarth.com/news/new-hampshire-hear-rebates-fall-2026/",
+    "title": "New Hampshire's home electrification rebates expected to launch in fall 2026",
+    "summary": "New Hampshire's Department of Energy says its HEAR program, with rebates of up to $14,000 for heat pumps, heat pump water heaters, wiring and insulation, is expected to launch in fall 2026. Only projects started after launch will qualify.",
+    "content_text": "New Hampshire's Department of Energy says its HEAR program, with rebates of up to $14,000 for heat pumps, heat pump water heaters, wiring and insulation, is expected to launch in fall 2026. Only projects started after launch will qualify.",
+    "date_published": "2026-07-29T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Energy rebates"
+    ],
+    "external_url": "https://www.energy.nh.gov/funding-opportunities/funding-opportunities-homeowners/home-electrification-and-appliance-rebates"
+   },
+   {
+    "id": "https://homerepair.samcbarth.com/news/harvard-lira-remodeling-growth-slows-2026/",
+    "url": "https://homerepair.samcbarth.com/news/harvard-lira-remodeling-growth-slows-2026/",
+    "title": "Harvard housing researchers project home improvement spending growth slowing through 2026",
+    "summary": "The Leading Indicator of Remodeling Activity from Harvard's Joint Center for Housing Studies projects owner spending on improvements and maintenance growing about 2.1 percent by mid-2026 and easing to 1.6 percent by year end, reaching about $518 billion.",
+    "content_text": "The Leading Indicator of Remodeling Activity from Harvard's Joint Center for Housing Studies projects owner spending on improvements and maintenance growing about 2.1 percent by mid-2026 and easing to 1.6 percent by year end, reaching about $518 billion.",
+    "date_published": "2026-04-15T12:00:00-06:00",
+    "image": "https://homerepair.samcbarth.com/assets/og/news.png",
+    "tags": [
+     "Industry",
+     "Remodeling"
+    ],
+    "external_url": "https://www.jchs.harvard.edu/press-releases/remodeling-growth-set-downshift-late-2026"
+   }
+  ]
+ },
+ "deals": {
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Deal Notes Dispatch (Deal Notes)",
+  "home_page_url": "https://deals.samcbarth.com/news/",
+  "feed_url": "https://deals.samcbarth.com/news/feed.json",
+  "description": "Retail sales events, recalls and consumer tech launches",
+  "language": "en-US",
+  "icon": "https://deals.samcbarth.com/assets/img/og/news.png",
+  "authors": [
+   {
+    "name": "Sam Barth"
+   }
+  ],
+  "items": [
+   {
+    "id": "https://deals.samcbarth.com/news/amazon-2026-holiday-return-window/",
+    "url": "https://deals.samcbarth.com/news/amazon-2026-holiday-return-window/",
+    "title": "Amazon's 2026 holiday return window runs to Jan. 31, 2027",
+    "summary": "Most items bought on Amazon from Nov. 1 through Dec. 31, 2026 can be returned through Jan. 31, 2027, per Amazon's return policy page. Apple-brand products have an earlier Jan. 15 deadline.",
+    "content_text": "Amazon's return policy page lists a 2026 holiday season extended return window. Most items purchased between November 1 and December 31, 2026 can be returned through January 31, 2027.\n\nApple-brand products are the exception: those bought in the same window must be returned by January 15, 2027, according to the policy page.\n\nWhy it matters: the extended window lowers the risk of buying gifts early, before Black Friday crowds and stock-outs. Category rules and return fees can still apply, so check the return details on each product page.",
+    "date_published": "2026-11-09T09:00:00-06:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-retail.png",
+    "tags": [
+     "Retail events",
+     "Amazon",
+     "Returns"
+    ],
+    "external_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/baby-brezza-sterilizer-recall/",
+    "url": "https://deals.samcbarth.com/news/baby-brezza-sterilizer-recall/",
+    "title": "Baby Brezza recalls SuperFast sterilizer dryers over overheating",
+    "summary": "About 29,000 Baby Brezza SuperFast sterilizer dryers can overheat while plugged in and running, posing a burn hazard, the CPSC says. Baby Brezza is offering free replacements.",
+    "content_text": "Baby Brezza Enterprises has recalled about 29,000 SuperFast sterilizer dryers in the U.S., according to a CPSC notice dated November 5, 2026. The CPSC says the units can overheat when plugged in and operating, posing a burn risk if the surface is handled.\n\nOwners should stop using the recalled sterilizer dryers and contact Baby Brezza for a free replacement, including free shipping.\n\nWhy it matters: baby gear is a common gift and registry purchase. Anyone who received or bought this model should check the recall notice.",
+    "date_published": "2026-11-05T10:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-recall.png",
+    "tags": [
+     "Recalls",
+     "Baby"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2027/Baby-Brezza-Enterprises-Recalls-SuperFast-Sterilizer-Dryers-Due-to-Overheating-and-Burn-Hazards"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/bose-s1-pro-battery-recall/",
+    "url": "https://deals.samcbarth.com/news/bose-s1-pro-battery-recall/",
+    "title": "Bose recalls S1 Pro and S1 Pro+ speaker battery packs over fire risk",
+    "summary": "About 634,759 lithium-ion battery packs for Bose S1 Pro and S1 Pro+ portable Bluetooth speakers can overheat and ignite, the CPSC says. Bose is offering free replacement packs.",
+    "content_text": "Bose has recalled about 634,759 lithium-ion battery packs used in its S1 Pro and S1 Pro+ portable Bluetooth speaker systems, according to a CPSC notice dated November 5, 2026. The CPSC says the packs can overheat and ignite.\n\nOwners should remove the recalled battery pack and stop using it. The speakers can still be used while plugged into AC power. Bose asks owners to register the pack's serial number at bose.com/support/s1-battery-recall for a free replacement.\n\nThe CPSC also warns not to put the recalled battery in the trash, curbside recycling or store battery drop boxes, because recalled lithium-ion batteries need special disposal.\n\nWhy it matters: battery recalls are a reminder to buy chargers and power banks from established brands and to check recall notices when a device runs hot.",
+    "date_published": "2026-11-05T10:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-recall.png",
+    "tags": [
+     "Recalls",
+     "Consumer tech"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2027/Bose-Recalls-Lithium-Ion-Battery-Packs-for-S1-Pro-and-S1-Pro-Bluetooth-Speaker-Systems-Due-to-Risk-of-Injury-from-Fire-and-Overheating-Hazards"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/gourmia-air-fryer-oven-recall/",
+    "url": "https://deals.samcbarth.com/news/gourmia-air-fryer-oven-recall/",
+    "title": "Gourmia recalls about 175,951 9-slice digital air fryer ovens",
+    "summary": "The doors on Gourmia 9-slice digital air fryer ovens can close unexpectedly when bumped, posing a burn hazard, the CPSC says. Gourmia is mailing free repair kits.",
+    "content_text": "Gourmia has recalled about 175,951 9-slice digital air fryer ovens, according to a CPSC notice dated November 5, 2026. The CPSC says the oven doors can unexpectedly close when bumped, posing a burn hazard to people reaching in for hot food.\n\nOwners should stop using the ovens and contact Gourmia for a free repair kit by mail. The kit adds a doorstop and installation instructions. Gourmia's recall page is gourmia.com/recall.asp.\n\nWhy it matters: countertop ovens and air fryers are popular holiday deal items. If you already own this model, fix it before the busy cooking season.",
+    "date_published": "2026-11-05T10:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-recall.png",
+    "tags": [
+     "Recalls",
+     "Kitchen"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2027/Gourmia-Recalls-9-Slice-Digital-Air-Fryer-Ovens-Due-to-Burn-Hazard"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/little-giant-ladder-recall/",
+    "url": "https://deals.samcbarth.com/news/little-giant-ladder-recall/",
+    "title": "Little Giant recalls about 3.66 million ladders with Rapid Locks",
+    "summary": "The CPSC says Little Giant ladders with Rapid Locks can suddenly retract if the locks are not fully engaged, posing a fall hazard. Owners should stop using them and get a repair kit.",
+    "content_text": "Little Giant has recalled about 3,662,000 ladders with Rapid Locks, according to a U.S. Consumer Product Safety Commission notice dated November 5, 2026. The CPSC says the ladders can suddenly retract if the Rapid Locks are not fully engaged, posing a fall hazard.\n\nThe CPSC tells owners to stop using the recalled ladders until they review the information at littlegiantladders.com/pages/recalls, or through the QR code on the ladder, and contact Little Giant for a repair kit.\n\nWhy it matters: ladders are a common tool purchase, including online. If you own a Little Giant ladder, check it against the recall before your next project.",
+    "date_published": "2026-11-05T10:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-recall.png",
+    "tags": [
+     "Recalls",
+     "Tools"
+    ],
+    "external_url": "https://www.cpsc.gov/Recalls/2027/Little-Giant-Recalls-Ladders-with-Rapid-Locks-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/alexa-for-shopping-price-history/",
+    "url": "https://deals.samcbarth.com/news/alexa-for-shopping-price-history/",
+    "title": "Amazon's Alexa for Shopping shows 30-, 90- and 365-day price history",
+    "summary": "Amazon's updated guide to its Alexa for Shopping assistant says it shows price history over 30, 90 and 365 days and can set price alerts or auto-buy at a target price.",
+    "content_text": "Amazon updated its guide to the Alexa for Shopping assistant on October 29, 2026. It says the assistant shows 30-, 90- and 365-day price history, and that shoppers can ask questions such as whether an item has been on sale in the past 30 days.\n\nAmazon also says shoppers can set price alerts or tell the assistant to buy an item once it reaches a target price, using their default payment method.\n\nWhy it matters: price history is the best defense against inflated list-price discounts during Black Friday and Cyber Monday. If you use auto-buy, confirm the exact item and seller before setting a target.",
+    "date_published": "2026-10-29T12:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-retail.png",
+    "tags": [
+     "Amazon",
+     "Shopping tools"
+    ],
+    "external_url": "https://www.aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/amazon-black-friday-2026-dates/",
+    "url": "https://deals.samcbarth.com/news/amazon-black-friday-2026-dates/",
+    "title": "Amazon confirms Black Friday on Nov. 27 and Cyber Monday on Nov. 30",
+    "summary": "Amazon's holiday guide confirms the 2026 Black Friday and Cyber Monday dates and says early deals are already live in its Holiday Shop. It has not yet posted Black Friday Week event dates.",
+    "content_text": "Amazon published its 2026 Black Friday guide on October 29, confirming that Black Friday falls on Friday, November 27, and Cyber Monday on Monday, November 30. The company says shoppers can browse early deals in its Holiday Shop now.\n\nWhat Amazon has not done yet is publish start and end dates for a 2026 Black Friday Week event. Deal trackers have floated predicted dates, but we are not repeating guesses.\n\nWhy it matters: early deals are useful for gifts that tend to sell out, and Amazon's extended holiday return window covers most purchases made from November 1. Check each item's price history before treating an early deal as the best price.",
+    "date_published": "2026-10-29T12:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-retail.png",
+    "tags": [
+     "Retail events",
+     "Amazon"
+    ],
+    "external_url": "https://www.aboutamazon.com/news/retail/when-is-amazon-black-friday-faq"
+   },
+   {
+    "id": "https://deals.samcbarth.com/news/apple-tv-4k-4th-gen-launch/",
+    "url": "https://deals.samcbarth.com/news/apple-tv-4k-4th-gen-launch/",
+    "title": "Apple TV 4K (4th generation) goes on sale Nov. 13 at $299",
+    "summary": "Apple's new Apple TV 4K adds an A19 chip, far-field microphones for hands-free Siri and four-speaker HomePod surround support. Pre-orders opened Oct. 13; stores get it Nov. 13.",
+    "content_text": "Apple announced the fourth-generation Apple TV 4K on October 13, 2026, with pre-orders starting that day and availability in stores beginning Friday, November 13. Apple lists the U.S. price at $299.\n\nAccording to Apple, the A19 chip delivers up to 50 percent faster CPU performance and up to 2x faster GPU performance than the previous model, and adds a dedicated AV1 decoder. Three built-in far-field microphones let owners talk to Siri hands-free, and the box can drive a four-speaker surround setup with HomePod mini 2 or HomePod (2nd generation) speakers.\n\nWhy it matters: a new model often pushes retailers to discount the outgoing one. If you are shopping streaming boxes for the holidays, compare the older model's price history with the new one's features.",
+    "date_published": "2026-10-13T12:00:00-05:00",
+    "image": "https://deals.samcbarth.com/assets/img/og/news-tech.png",
+    "tags": [
+     "Consumer tech",
+     "Launches"
+    ],
+    "external_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"
+   }
+  ]
+ }
+}
