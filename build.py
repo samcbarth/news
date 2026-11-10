@@ -24,11 +24,12 @@ SAMSITES = pathlib.Path(os.environ.get("SAMSITES_DIR") or ROOT.parent)  # where 
 CACHE = ROOT / "data" / "feed-cache.json"
 TEST_MARK = "[TEST]"
 
-GTM = '''<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KMS4X55L"></script>
+GTM = '''<script async src="https://www.googletagmanager.com/gtag/js?id=G-30M75204R6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'G-30M75204R6');
 </script>'''
 
 e = lambda s: html.escape(str(s or ""), quote=True)
