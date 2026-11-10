@@ -76,7 +76,7 @@ Then in the GitHub repo: Settings > Pages > deploy from `main` / root, custom do
 
 - AdSense publisher id (ads stay off until set).
 - HubSpot contact form id or a contact email.
-- The six sibling sites going live. As of the first build only the streaming site had a local feed (`C:\SamSites\streaming\news\feed.json`, 7 items, parses cleanly). Rebuild after each site launches so its feed is cached and refreshed in the browser.
+- The six sibling sites going live. As of 2026-11-09, two siblings had local feeds that parse cleanly in the test build: streaming (7 items) and deals (8 items). The other four still use samples. Rebuild after each site launches so its feed is cached and refreshed in the browser.
 - GitHub repo and push: not created. Needs Sam's explicit yes.
 
 ## Files
