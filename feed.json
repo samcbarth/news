@@ -7,6 +7,153 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://news.samcbarth.com/story/adobe-forecast-black-friday-12-9-billion/",
+      "url": "https://news.samcbarth.com/story/adobe-forecast-black-friday-12-9-billion/",
+      "title": "Adobe expects Black Friday online sales of $12.9 billion, growing faster than Cyber Monday",
+      "summary": "Adobe's holiday forecast puts U.S. online spending at a record $275.1 billion for November and December, with the deepest discounts during Cyber Week.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T16:30:00-06:00",
+      "tags": [
+        "Deals",
+        "Black Friday",
+        "Cyber Monday",
+        "Adobe",
+        "holiday shopping"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/walmart-early-black-friday-deals-november-12/",
+      "url": "https://news.samcbarth.com/story/walmart-early-black-friday-deals-november-12/",
+      "title": "Walmart's first Black Friday deals event starts November 12",
+      "summary": "Walmart is running three holiday sale events this year: early deals Nov. 12 to 15, Black Friday deals Nov. 23 to 29 and Cyber Monday deals Nov. 30 to Dec. 2.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T16:00:00-06:00",
+      "tags": [
+        "Deals",
+        "Walmart",
+        "Black Friday",
+        "Cyber Monday",
+        "holiday shopping"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/spotify-q3-2026-306-million-subscribers/",
+      "url": "https://news.samcbarth.com/story/spotify-q3-2026-306-million-subscribers/",
+      "title": "Spotify reaches 306 million paying subscribers and 788 million users",
+      "summary": "Spotify's third-quarter results show growth in every region, with revenue of 5.0 billion euros and operating income ahead of its own forecast.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T15:00:00-06:00",
+      "tags": [
+        "Streaming",
+        "Spotify",
+        "music streaming",
+        "earnings"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/pikmin-4-switch-2-edition-november-12/",
+      "url": "https://news.samcbarth.com/story/pikmin-4-switch-2-edition-november-12/",
+      "title": "Pikmin 4 Switch 2 Edition with Dandori Academy arrives November 12",
+      "summary": "Nintendo's upgraded Pikmin 4 adds sharper visuals, voice commands for Oatchi and a 72-stage challenge mode released over time.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T14:00:00-06:00",
+      "tags": [
+        "Gaming",
+        "Pikmin 4",
+        "Nintendo Switch 2",
+        "Nintendo",
+        "release dates"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/football-manager-27-launches/",
+      "url": "https://news.samcbarth.com/story/football-manager-27-launches/",
+      "title": "Football Manager 27 is out on PC, consoles, Netflix and Apple Arcade",
+      "summary": "Sports Interactive released all four versions of FM27 on November 10, including through Game Pass, Netflix and Apple Arcade subscriptions.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T13:00:00-06:00",
+      "tags": [
+        "Gaming",
+        "Football Manager 27",
+        "Sports Interactive",
+        "SEGA",
+        "new releases"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/chrome-157-fixes-exploited-zero-day/",
+      "url": "https://news.samcbarth.com/story/chrome-157-fixes-exploited-zero-day/",
+      "title": "Chrome 157 update fixes a flaw Google says is being exploited",
+      "summary": "Google's November 9 desktop update patches nine security bugs, including a high-severity use-after-free in Chrome's XML code with a known exploit.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T12:00:00-06:00",
+      "tags": [
+        "Tools and Tech",
+        "Chrome",
+        "Google",
+        "security",
+        "browsers"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/windows-11-november-2026-update-kb5132061/",
+      "url": "https://news.samcbarth.com/story/windows-11-november-2026-update-kb5132061/",
+      "title": "Windows 11 November update KB5132061 turns on NTLM signing by default",
+      "summary": "Microsoft's November security update for Windows 11 tightens NTLM and PowerShell script signing and fixes USB audio and printer bugs.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T11:00:00-06:00",
+      "tags": [
+        "Tools and Tech",
+        "Windows 11",
+        "Microsoft",
+        "Patch Tuesday",
+        "security"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/harvard-lira-remodeling-spending-flat-2027/",
+      "url": "https://news.samcbarth.com/story/harvard-lira-remodeling-spending-flat-2027/",
+      "title": "Home improvement spending expected to stay flat through late 2027",
+      "summary": "Harvard's remodeling forecast projects 1.5% growth to about $527 billion, citing flat building-product sales and stalled remodeling permits.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T10:00:00-06:00",
+      "tags": [
+        "Home",
+        "remodeling",
+        "home improvement",
+        "Harvard JCHS"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/eia-winter-heating-oil-bills-up-21-percent/",
+      "url": "https://news.samcbarth.com/story/eia-winter-heating-oil-bills-up-21-percent/",
+      "title": "EIA: heating oil bills to rise 21% this winter while natural gas bills fall 9%",
+      "summary": "The federal energy agency's winter outlook splits sharply by fuel, so what a household pays depends on how the home is heated.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T09:00:00-06:00",
+      "tags": [
+        "Home",
+        "heating costs",
+        "winter",
+        "EIA",
+        "energy bills"
+      ]
+    },
+    {
+      "id": "https://news.samcbarth.com/story/realtor-com-october-inventory-up-7-4-percent/",
+      "url": "https://news.samcbarth.com/story/realtor-com-october-inventory-up-7-4-percent/",
+      "title": "Homes for sale rose 7.4% in October as contract signings fell 17%",
+      "summary": "Realtor.com's October report shows more listings sitting on the market and fewer buyers signing contracts as mortgage rates held above 7%.",
+      "image": "https://news.samcbarth.com/assets/og.png",
+      "date_published": "2026-11-11T08:00:00-06:00",
+      "tags": [
+        "Real Estate",
+        "housing inventory",
+        "home prices",
+        "Realtor.com"
+      ]
+    },
+    {
       "id": "https://news.samcbarth.com/story/skydance-plans-paramount-hbo-max-streamer/",
       "url": "https://news.samcbarth.com/story/skydance-plans-paramount-hbo-max-streamer/",
       "title": "Skydance plans a combined Paramount+ and HBO Max streamer for early 2027",

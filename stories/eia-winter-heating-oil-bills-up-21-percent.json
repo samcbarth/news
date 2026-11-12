@@ -1,0 +1,23 @@
+{
+  "slug": "eia-winter-heating-oil-bills-up-21-percent",
+  "section": "homerepair",
+  "title": "EIA: heating oil bills to rise 21% this winter while natural gas bills fall 9%",
+  "dek": "The federal energy agency's winter outlook splits sharply by fuel, so what a household pays depends on how the home is heated.",
+  "date_published": "2026-11-11T09:00:00-06:00",
+  "tags": ["heating costs", "winter", "EIA", "energy bills"],
+  "body": [
+    {"h": "What will it cost to heat a home this winter?"},
+    {"p": "The U.S. Energy Information Administration expects the average household that heats mainly with natural gas to spend $640 this winter, down 9% from last winter. Homes heated mainly with heating oil are expected to spend $2,115, up 21%."},
+    {"h": "What about electric and propane heat?"},
+    {"p": "EIA forecasts $1,196 for homes heated mainly with electricity, up 4%, and $1,246 for propane, down 3%. Natural gas was the main heating fuel in 46% of U.S. homes in 2024, and electricity is the main fuel in more than 40%."},
+    {"h": "Does it vary by region?"},
+    {"p": "Yes. Natural gas spending is forecast to fall 14% in the Northeast and 15% in the South, but rise 7% in the West, where EIA assumes a much colder winter after an unusually warm one last year. Electric heating costs are forecast up 9% in the West."},
+    {"h": "What does EIA assume about the weather?"},
+    {"p": "The forecast assumes national temperatures similar to last winter, with a warmer Northeast and a colder West. EIA also publishes side cases for a winter 10% colder or 10% warmer than its base forecast, and a colder winter would raise bills."},
+    {"h": "What can homeowners do now?"},
+    {"p": "Before the cold sets in, the cheapest steps are the familiar ones: replace furnace filters, have oil burners and heat pumps serviced, and seal drafts around doors and windows. Oil-heat households may want to compare fill-up prices or budget plans, since that fuel shows the biggest increase."}
+  ],
+  "sources": [
+    {"label": "U.S. Energy Information Administration, Short-Term Energy Outlook: Winter Fuels Outlook (Oct. 6, 2026)", "url": "https://www.eia.gov/outlooks/steo/report/perspectives/2026/10-winterfuels/article.php"}
+  ]
+}

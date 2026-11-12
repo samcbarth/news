@@ -1,0 +1,23 @@
+{
+  "slug": "realtor-com-october-inventory-up-7-4-percent",
+  "section": "realestate",
+  "title": "Homes for sale rose 7.4% in October as contract signings fell 17%",
+  "dek": "Realtor.com's October report shows more listings sitting on the market and fewer buyers signing contracts as mortgage rates held above 7%.",
+  "date_published": "2026-11-11T08:00:00-06:00",
+  "tags": ["housing inventory", "home prices", "Realtor.com"],
+  "body": [
+    {"h": "How many homes were for sale in October?"},
+    {"p": "Active listings reached 1,183,500 homes nationally in October 2026, up 7.4% from a year earlier, according to Realtor.com's monthly housing report published November 4. Inventory is now about 6.6% below typical pre-pandemic levels, the narrowest gap since the pandemic."},
+    {"h": "What happened to buyer demand?"},
+    {"p": "Contract signings fell 17.0% from a year earlier, and the number of listings in pending status was down 10.5%. Realtor.com tied the slowdown to mortgage rates above 7%."},
+    {"h": "Are sellers listing fewer homes too?"},
+    {"p": "Yes. New listings fell 7.5% from a year earlier to 357,000. Inventory still grew because homes already on the market stayed listed longer: the median home spent 63 days on the market, one day more than a year earlier."},
+    {"h": "Are prices coming down?"},
+    {"p": "The national median list price was $415,000, down 2.2% from a year earlier. About 20.5% of listings had a price cut."},
+    {"h": "Which regions saw the biggest changes?"},
+    {"p": "Inventory grew fastest in the Northeast (up 16.5%) and Midwest (up 13.8%), with the West up 9.0% and the South up 3.8%. The South had the longest typical time on market at 69 days. For buyers in Texas and Oklahoma, that means more choice and more room to negotiate than a year ago, though higher rates still raise the monthly payment."}
+  ],
+  "sources": [
+    {"label": "Realtor.com Economic Research, October 2026 Monthly Housing Trends (Nov. 4, 2026)", "url": "https://www.realtor.com/research/october-2026-data/"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "windows-11-november-2026-update-kb5132061",
+  "section": "tools",
+  "title": "Windows 11 November update KB5132061 turns on NTLM signing by default",
+  "dek": "Microsoft's November security update for Windows 11 tightens NTLM and PowerShell script signing and fixes USB audio and printer bugs.",
+  "date_published": "2026-11-11T11:00:00-06:00",
+  "tags": ["Windows 11", "Microsoft", "Patch Tuesday", "security"],
+  "body": [
+    {"h": "What is KB5132061?"},
+    {"p": "KB5132061 is Microsoft's November 10, 2026 security update for Windows 11 versions 24H2, 25H2 and 26H2. It moves those versions to OS builds 26100.9974, 26200.9974 and 26300.9974, and it installs automatically through Windows Update."},
+    {"h": "What changes for security?"},
+    {"p": "The update has Windows clients offer NTLM message signing by default for non-anonymous connections, and it adds stricter encoding checks to PowerShell script signing and signature verification. It also widens the set of devices eligible to automatically receive new Secure Boot certificates."},
+    {"h": "Which bugs does it fix?"},
+    {"p": "Microsoft lists fixes for USB Audio 1.0 devices that failed to start with error code 10, for an error 87 when adding a printer published in Active Directory, and for Remote Desktop connections that failed with a certificate mismatch after the October preview update. It also updates daylight saving time rules for Cuba."},
+    {"h": "Are there known problems?"},
+    {"p": "At release, Microsoft said it was not aware of any issues with this update. Small offices that rely on older network storage or file shares can install it on one machine first and confirm those connections still work before updating the rest."}
+  ],
+  "sources": [
+    {"label": "Microsoft Support, November 10, 2026: KB5132061 (OS Builds 26300.9974, 26200.9974 and 26100.9974)", "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update"}
+  ]
+}
